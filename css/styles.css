@@ -17,7 +17,7 @@ body {
 .clock {
     width: 20rem;
     height: 20rem;
-    border: 10px solid gray;
+    border: 10px solid #4e4c4c;
     border-radius: 50%;
     position: relative;
     top: 25rem;
@@ -32,16 +32,31 @@ body {
 }
 
 .hand {
-    width: 70%;
-    height: 6px;
-    background: gray;
     position: absolute;
     top: 50%;
-    right: 47%;
-    border-radius: 30px;
+    right: 50%;
+    border-radius: 40px;
     /* Rotate the very side*/
     transform-origin: 100%;
     transform: rotate(90deg);
     transition: all 50ms;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.second {
+    width: 70%;
+    height: 3px;
+    background: #6d6969;
+}
+
+.minute {
+    width: 60%;
+    height: 6px;
+    background: #4e4c4c;
+}
+
+.hour {
+    width: 45%;
+    height: 6px;
+    background: #4e4c4c;
 }
