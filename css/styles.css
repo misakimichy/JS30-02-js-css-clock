@@ -1,0 +1,41 @@
+html {
+    background-image: url("https://images.pexels.com/photos/112811/pexels-photo-112811.jpeg?cs=srgb&dl=bricks-brickwall-indoors-112811.jpg&fm=jpghttps://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg?cs=srgb&dl=blue-brick-wall-chair-1282315.jpg&fm=jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex: 1;
+    min-height: 50vh;
+    align-items: center;
+}
+
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 10px solid gray;
+    border-radius: 50%;
+    position: relative;
+    top: 25rem;
+    padding: 5rem;
+    margin: 50px auto;
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.hand {
+    width: 50%;
+    height: 6px;
+    background: gray;
+    position: absolute;
+    top: 50%;
+
+}
