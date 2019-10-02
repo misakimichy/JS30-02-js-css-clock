@@ -38,9 +38,8 @@ body {
     border-radius: 40px;
     /* Rotate the very side*/
     transform-origin: 100%;
-    transform: rotate(90deg);
     transition: all 50ms;
-    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.3, 1);
 }
 
 .second {
