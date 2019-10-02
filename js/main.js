@@ -18,6 +18,9 @@ const setDate = () => {
     const hours = now.getHours();
     const hoursDegree = hours * 30;
     hourHand.style.transform = `rotate(${hoursDegree}deg)`;
+
+    [secondHand, minuteHand, hourHand].forEach(element =>
+        element.style.transition = (seconds === 0) ? 'none': null);
 };
 
 (function(){
