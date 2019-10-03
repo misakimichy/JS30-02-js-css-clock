@@ -36,9 +36,11 @@ body {
     top: 50%;
     right: 50%;
     border-radius: 40px;
-    /* Rotate the very side*/
+    /* Rotate the very side */
     transform-origin: 100%;
     transition: all 50ms;
+    /* rotate 90deg to start with 12 o'clock*/
+    transform: rotate(90deg);
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.3, 1);
 }
 
