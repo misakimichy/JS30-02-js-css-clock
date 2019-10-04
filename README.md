@@ -3,7 +3,7 @@
 #### _JS-CSS-clock by JavaScript30 10/02/19_
 
 ## Description
-This is JJS-CSS-clock application, 2nd application out of 30 by 30 day Vanilla JavaScript Coding Challenge by Wes Boss.<br>
+This is JS-CSS-clock application, 2nd application out of 30 by 30 day Vanilla JavaScript Coding Challenge by Wes Bos.<br>
 Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
 ![Screenshot of the app](img/screenshot.png)
@@ -20,7 +20,7 @@ Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
 1. Clone this repo:
 ```
-$ git clone https://github.com/misakimichy/js30-02-js-css-clock.git
+$ git clone https://github.com/misakimichy/JS30-02-js-css-clock.git
 ```
 
 2. Navigate to the top level of the cloned directory.
